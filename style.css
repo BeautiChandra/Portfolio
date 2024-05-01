@@ -1,0 +1,108 @@
+body,html{
+    margin: 0;
+    padding: 0;
+
+}
+.flexbox
+{
+    display: flex;
+}
+#box1
+{
+       /* background-color:blue; */
+    background-color: #153448;
+    height: 100vh;
+    width: 65vw;
+    z-index: 0;
+}
+#box2{
+    /* background-color: black; */
+    background-color:#3C5B6F;
+    height: 100vh;
+    width: 35vw;
+    z-index: 0;}
+    
+
+.link{
+    margin-left: 55px;
+    margin-top: 65px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 300 ;
+
+}
+a{
+    text-decoration: none;
+
+}
+#about{
+    margin-left: 10px;
+    justify-content: center;
+
+}
+#img
+{
+    background-image: url("wimg.webp");
+    height: 240px;
+    width:310px;
+    /* margin-top: 100px; */
+     background-size: cover;
+    border: 4px;
+    border-radius: 360%;
+    /* margin-left: 170px; */
+    /* margin-bottom: 100px; */
+     position: absolute;
+     /* bottom: 25px; */
+     top: 135px;
+     left: 55px;
+}
+#content
+{
+    text-align:center;
+    margin-top: 35vh;
+    font-size: medium;
+}
+a{
+    margin-left: 80px;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+}
+#content{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    height: 50wh; 
+    width: 100vw;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+}
+h3{
+    display: inline;
+    font-weight:200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    
+}
+
+.see-more{
+    height: 32px;
+    width: 124px;
+    border: 2px solid #AF8260;
+    border-radius: 12px;
+    color:white; 
+    cursor: pointer;  
+    background-color: #948979;
+    
+}
+.icon
+{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    
+}
+

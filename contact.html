@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color:  #153448;
+
+        }
+
+        h2 {
+            color:  whitesmoke;
+            text-align: center;
+            position: absolute;
+            top: 50px;
+            left: 45%;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid   whitesmoke;;;
+            height: 510px;
+            width: 650px;
+            margin-left: 28vw;
+            margin-top: 15vh;
+            background-color:#3C5B6F;
+        }           
+
+        .input{
+            width: 220px;
+            height: 24px;
+            padding: 8px;
+            border: 3px solid  whitesmoke;
+            border-radius: 16px;
+            color: white;
+            
+        }
+
+        form {
+            width: 80%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-evenly;
+        }
+
+        .name{
+            width: 100%;
+            display: flex;
+            background-color:#3C5B6F;
+            justify-content: space-between;
+        }
+        .input::placeholder , #message::placeholder {
+         color:  whitesmoke;
+         }
+
+
+        .bttn{
+            height: 32px;
+            width: 124px;
+            border: 2px solid    rgb(16, 45, 158);;
+            border-radius: 12px;
+            color:white;
+            background-color: rgb(16, 45, 158); 
+            cursor: pointer; 
+            align-self: center; 
+        }
+        #message{
+            border-color:  whitesmoke;
+            border-radius: 17px;
+            padding: 6px;
+        
+        }
+        form{
+            background-color:#3C5B6F;
+        }
+        textarea{
+            border: 3px solid  whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h2><b>Let's talk</b></h2>
+    </div>
+
+    <div class="contact">
+        <form action="mailto:hubey5750@gmail.com" method="post" enctype="text/plain">
+      <div class="name">
+         <input type="text" placeholder="First Name" class="input">    
+         <input type="text" placeholder="Last Name" class="input">
+      </div>
+      <input type="number" placeholder="Phone No :" class="input">
+      <input type="email" placeholder="Email" class="input">
+      <textarea placeholder="Enter Your Message:" id="message" cols="60" rows="10"></textarea>
+        <button class="bttn">submit</button>
+    </form>
+
+    </div>
+
+
+</body>
+
+</html>
